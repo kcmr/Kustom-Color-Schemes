@@ -612,17 +612,6 @@
 					<string>#f6aa11</string>
 				</dict>
 			</dict>
-			<dict>
-				<key>name</key>
-				<string>CSS: .class</string>
-				<key>scope</key>
-				<string>meta.selector.css</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#a4c267</string>
-				</dict>
-			</dict>
       <dict>
 				<key>name</key>
 				<string>CSS Classes</string>
@@ -631,7 +620,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FFCB6B</string>
+					<string>#a4c267</string>
 				</dict>
 			</dict>
 			<dict>
