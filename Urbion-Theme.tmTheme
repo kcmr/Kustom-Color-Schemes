@@ -15,7 +15,7 @@
 			<key>selectionBackground</key>
 			<string>#586e75</string>
 			<key>selectionForeground</key>
-			<string>#a4c267</string>
+			<string>#e6e7e3</string>
 		</dict>
 		<key>settings</key>
 		<array>
@@ -369,13 +369,26 @@
 				<key>name</key>
 				<string>Tag attribute</string>
 				<key>scope</key>
-				<string>entity.other.attribute-name</string>
+				<string>source.css entity.other.attribute-name</string>
 				<key>settings</key>
 				<dict>
 					<key>fontStyle</key>
 					<string></string>
 					<key>foreground</key>
-					<string>#a4c267</string>
+					<string>#df972d</string>
+				</dict>
+			</dict>
+      <dict>
+				<key>name</key>
+				<string>Tag attribute</string>
+				<key>scope</key>
+				<string>source.css entity</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string></string>
+					<key>foreground</key>
+					<string>#e13e79</string>
 				</dict>
 			</dict>
 			<dict>
@@ -598,29 +611,30 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#f6aa11</string>
+					<string>#67a9b5</string>
 				</dict>
 			</dict>
-			<dict>
+
+      <dict>
 				<key>name</key>
-				<string>CSS: #Id for SCSS</string>
+				<string>HTML id attribute</string>
 				<key>scope</key>
-				<string>entity.other.attribute-name.id</string>
+				<string>meta.attribute-with-value.id.html string.quoted.double.html</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#f6aa11</string>
+					<string>#d2fc7d</string>
 				</dict>
 			</dict>
       <dict>
 				<key>name</key>
 				<string>CSS Classes</string>
 				<key>scope</key>
-				<string>entity.other.attribute-name.class</string>
+				<string>source.css.embedded.html entity.other.attribute-name.class</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#a4c267</string>
+					<string>#f6aa11</string>
 				</dict>
 			</dict>
 			<dict>
